@@ -27,3 +27,4 @@ Options are divided into three groups:
     -	Tracking color
 
 The app has also a Service that runs in background; it sends the data to the server and collects the data about the current location.
+
