@@ -1,0 +1,219 @@
+<resources>
+
+    <string name="title_activity_settings">Impostazioni</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <string name="pref_about_us">Informazioni su...</string>
+    
+     <string name="pref_header_about_us">Informazioni su...</string>
+    <string name="pref_header_general">Tracciamento</string>
+    <string name="pref_header_map">Mappa</string>
+    <string name="pref_header_network">Network</string>
+    
+    <string name="pref_title_enable_tracking_recommendations">Abilita tracciamento</string>
+    <string name="pref_description_enable_tracking_recommendations">Raccoglie i dati di localizzazione. La raccolta procederà anche se il terminale è offline.</string>
+    
+    <string name="pref_intervallo_acquisizione_dati_label">Intervallo acquisizione dati</string>
+
+    <string-array name="pref_intervallo_acquisizione_titles">
+        <item>Automatico</item>
+        <item>3 secondi</item>
+        <item>5 secondi</item>
+        <item>10 secondi</item>
+        <item>15 secondi</item>
+        <item>20 secondi</item>
+        <item>30 secondi</item>
+        <item>45 secondi</item>
+        <item>1 minuto</item>
+        <item>2 minuti</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+    </string-array>
+    <string-array name="pref_intervallo_acquisizione_values">
+        <item>0</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+        <item>600</item>
+        <item>900</item>
+    </string-array>
+
+        <string name="pref_intervallo_send_dati_label">Intervallo invio dati</string>
+
+    <string-array name="pref_intervallo_send_titles">
+        <item>Disabilita</item>
+        <item>10 secondi (Consumi elevati)</item>
+        <item>15 secondi</item>
+        <item>20 secondi</item>
+        <item>30 secondi</item>
+        <item>45 secondi</item>
+        <item>1 minuto</item>
+        <item>2 minuti</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>15 minuti (Risparmio energetico)</item>
+    </string-array>
+    <string-array name="pref_intervallo_send_values">
+        <item>0</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+        <item>600</item>
+        <item>900</item>
+    </string-array>
+    
+    
+    <string name="pref_ore_ultime_attivita_label">Visualizza dati per le ultime ore</string>
+
+    <string-array name="pref_ore_ultime_attivita_titles">
+        <item>3 minuti</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+        <item>30 minuti</item>
+        <item>45 minuti</item>
+        <item>60 minuti</item>
+        <item>90 minuti</item>
+        <item>2 ore</item>
+        <item>4 ore</item>
+        <item>6 ore</item>
+        <item>8 ore</item>
+        <item>12 ore</item>
+        <item>18 ore</item>
+        <item>24 ore</item>
+    </string-array>
+    <string-array name="pref_ore_ultime_attivita_values">
+        <item>180</item> <!-- 3min -->
+        <item>300</item> <!-- 5min -->
+        <item>600</item> <!-- 10min -->
+        <item>900</item> <!-- 15min -->
+        <item>1800</item> <!-- 30min -->
+        <item>2700</item> <!-- 45min -->
+        <item>3600</item> <!-- 60 minuti -->
+        <item>5400</item> <!-- 90 minuti -->
+        <item>7200</item> <!-- 2 ore -->
+        <item>14400</item><!-- 4 ore -->
+        <item>21600</item><!-- 6 ore -->
+        <item>28800</item><!-- 8 ore -->
+        <item>43200</item><!-- 12 ore -->
+        <item>64800</item><!-- 18 ore -->
+        <item>86400</item><!-- 24 ore -->
+    </string-array>
+
+    <!-- Modalita' realizzazione percorsi -->
+    
+      <string name="pref_modalita_percorsi_label">Modalità realizzazione percorso</string>
+
+    <string-array name="pref_modalita_percorsi_titles">
+        <item>In auto</item>
+        <item>A piedi</item>
+        <item>Libero</item>
+
+    </string-array>
+    <string-array name="pref_modalita_percorsi_values">
+        <item>driving</item> 
+        <item>walking</item> 
+        <item>NOPREF</item> 
+    </string-array>
+    
+    <string name="pref_zoom_level_label">Zoom della mappa</string>
+
+    <string-array name="pref_zoom_level_titles">
+        <item>Molto Distante (mondo)</item> <!-- 1 -->
+        <item>Distante</item> <!-- 4 -->
+		<item>Medio -Distante</item>  <!-- 8 -->
+        <item>Medio</item> <!-- 10 -->
+        <item>Medio - Vicino</item> <!-- 12 -->
+        <item>Un po\' più vicino (città)</item> <!-- 15 -->
+        <item>Molto vicino</item> <!-- 18 -->
+		<item>Estremamente Vicino</item> <!-- 21 -->
+		<item>Vicinissimo</item> <!-- 25 -->
+    </string-array>
+    <string-array name="pref_zoom_level_values">
+        <item>1</item> 
+        <item>4</item> 
+        <item>8</item> 
+        <item>10</item> 
+        <item>12</item> 
+        <item>15</item>
+		<item>18</item>
+		<item>21</item>
+		<item>25</item> 		
+    </string-array>
+    
+    <string name="pref_map_mode_label">Modalità mappa</string>
+
+    <string-array name="pref_map_mode_titles">
+        <item>Mappa semplice</item>
+        <item>Satellite</item>
+        <item>Terreno</item>
+        <item>Ibrido</item>
+    </string-array>
+    <string-array name="pref_map_mode_values">
+        <item>1</item> 
+        <item>2</item> 
+        <item>3</item> 
+        <item>4</item> 
+    </string-array>
+
+<string name="pref_title_can_refresh_map_recommendations">Aggiornamento automatico mappa</string>
+    <string name="pref_description_can_refresh_map_recommendations">Aggiorna il tracciato visualizzato periodicamente via Internet.</string>
+
+
+
+    
+        <!-- Menu Contestuale Preferiti -->
+    <string-array name="favorite_context_menu_items">
+        <item>Visualizza</item>
+        <item>Modifica</item>
+        <item>Elimina</item>
+    </string-array>
+	
+	
+	
+	<string name="pref_map_color_label">Colore Tracciamento</string>
+
+    <string-array name="pref_map_color_titles">
+        <item>BLACK</item>
+        <item>BLUE</item>
+        <item>CYAN</item>
+        <item>DKGRAY</item>
+        <item>GRAY</item>
+        <item>GREEN</item>
+        <item>LTGRAY</item>
+        <item>MAGENTA</item>
+        <item>RED</item>
+        <item>TRANSPARENT</item>
+        <item>WHITE</item>
+        <item>YELLOW</item>
+    </string-array>
+    <string-array name="pref_map_color_values">
+        <item>-16777216</item> 
+        <item>-16776961</item> 
+        <item>-16711681</item> 
+        <item>-12303292</item> 
+        <item>-7829368</item> 
+        <item>-16711936</item> 
+        <item>-3355444</item> 
+        <item>-65281</item> 
+        <item>-65536</item> 
+        <item>0</item>
+        <item>-1</item>
+        <item>-256</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrackMyself</string>
+
+    <!-- Parametri Webservice -->
+    <!--
+ec2-46-51-205-106.eu-west-1.compute.amazonaws.com 
+192.168.1.102
+    -->
+    <string name="webservice_user">http://ec2-46-51-205-106.eu-west-1.compute.amazonaws.com:8080/TrackerWebService/webresources/webservices.user/</string>
+    <string name="webservice_pointer">http://ec2-46-51-205-106.eu-west-1.compute.amazonaws.com:8080/TrackerWebService/webresources/webservices.pointer/</string>
+    <string name="webservice_favorite">http://ec2-46-51-205-106.eu-west-1.compute.amazonaws.com:8080/TrackerWebService/webresources/webservices.favorites/</string>
+
+    <!-- Stringhe MainActivity -->
+    <string name="action_settings">Impostazioni</string>
+    <string name="loginInfoText">Effettua il login utilizzando il tuo nome utente e la tua password:</string>
+    <string name="username">Nome utente:</string>
+    <string name="password">Password:</string>
+    <string name="loginButton">Accedi</string>
+
+    <!-- Map Activity -->
+    <string name="title_activity_map">Mappa</string>
+
+    <!-- Menu delle mappe -->
+    <string name="latest_points_menu">Ultimi punti</string>
+    <string name="favorites_list_menu">Preferiti</string>
+    <string name="select_range_menu">Seleziona intervallo</string>
+    <string name="refresh_map">Ricarica Mappa</string>
+    <string name="settings">Impostazioni</string>
+    <string name="action_logout">Disconnettiti</string>
+
+    <!-- Registrazione -->
+    <string name="title_activity_sign_up">Registrazione</string>
+    <string name="sign_up_label_instructions">Per registrarti, inserisci il tuo nome utente e la password che vuoi usare per l\'accesso</string>
+    <string name="sign_up_button">Registrati</string>
+    <string name="not_signedup_label_hint">Non sei ancora registrato?</string>
+
+    <!-- lista percorsi preferiti -->
+    <string name="title_activity_favorite_routes">Lista percorsi preferiti</string>
+    <string name="add_favorite_route">Nuovo preferito</string>
+    <string name="route_name_label_dialog">Nome del percorso</string>
+    <string name="title_activity_about_us">Informazioni su...</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

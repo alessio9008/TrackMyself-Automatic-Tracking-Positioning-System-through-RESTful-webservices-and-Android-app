@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+
+    <!--
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+    -->
+    <Preference android:title="@string/pref_about_us" >
+         <intent 
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="it.unict.dieei.semm.trackmyself"
+        android:targetClass="it.unict.dieei.semm.trackmyself.AboutUsActivity"
+    />
+    </Preference>
+   
+   
+
+</PreferenceScreen>

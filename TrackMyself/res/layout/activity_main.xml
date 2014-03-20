@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/imageView1" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/fromTimeDialogLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginInfoText" />
+
+    <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usernameField"
+        android:layout_below="@+id/usernameField"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordLabel"
+        android:layout_alignRight="@+id/fromTimeDialogLabel"
+        android:layout_below="@+id/passwordLabel"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/usernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usernameField"
+        android:layout_below="@+id/fromTimeDialogLabel"
+        android:layout_marginTop="18dp"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/usernameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fromTimeDialogLabel"
+        android:layout_alignRight="@+id/fromTimeDialogLabel"
+        android:layout_below="@+id/usernameLabel"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordField"
+        android:layout_alignRight="@+id/passwordField"
+        android:layout_below="@+id/passwordField"
+        android:layout_marginTop="15dp"
+        android:text="@string/loginButton"
+        android:onClick="checkCredentials" />
+
+    <TextView
+        android:id="@+id/notSignedUpHintLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login"
+        android:layout_below="@+id/login"
+        android:text="@string/not_signedup_label_hint" />
+
+    <Button
+        android:id="@+id/goToSignUpActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notSignedUpHintLabel"
+        android:layout_alignRight="@+id/login"
+        android:layout_below="@+id/notSignedUpHintLabel"
+        android:text="@string/sign_up_button"
+        android:onClick="goToSignUpActivity" />
+</RelativeLayout></ScrollView>
+</RelativeLayout>

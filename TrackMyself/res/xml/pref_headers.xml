@@ -1,0 +1,17 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- These settings headers are only used on tablets. -->
+    <header
+        android:fragment="it.unict.dieei.semm.trackmyself.SettingsActivity$AboutUsPreferenceFragment"
+        android:title="@string/pref_header_about_us" />
+    <header
+        android:fragment="it.unict.dieei.semm.trackmyself.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general" />
+    <header
+        android:fragment="it.unict.dieei.semm.trackmyself.SettingsActivity$MapPreferenceFragment"
+        android:title="@string/pref_header_map" />
+    <header
+        android:fragment="it.unict.dieei.semm.trackmyself.SettingsActivity$NetworkPreferenceFragment"
+        android:title="@string/pref_header_network" />
+
+</preference-headers>

@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="can_refresh_map"
+        android:summary="@string/pref_description_can_refresh_map_recommendations"
+        android:title="@string/pref_title_can_refresh_map_recommendations" />
+    <ListPreference
+        android:defaultValue="30"
+        android:entries="@array/pref_intervallo_send_titles"
+        android:entryValues="@array/pref_intervallo_send_values"
+        android:key="intervallo_send"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_intervallo_send_dati_label" />
+     <ListPreference
+        android:defaultValue="14400"
+        android:entries="@array/pref_ore_ultime_attivita_titles"
+        android:entryValues="@array/pref_ore_ultime_attivita_values"
+        android:key="ore_ultime_attivita"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_ore_ultime_attivita_label" />
+
+</PreferenceScreen>

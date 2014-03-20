@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item 
+        android:id="@+id/refresh_map" 
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/refresh_map"/>
+	<item 
+        android:id="@+id/latest_points_menu" 
+        android:title="@string/latest_points_menu"
+        android:showAsAction="ifRoom"/>
+	<item 
+        android:id="@+id/favorites_list_menu" 
+        android:title="@string/favorites_list_menu"
+        android:showAsAction="ifRoom"/>
+	<item 
+        android:id="@+id/select_range_menu" 
+        android:title="@string/select_range_menu"/>
+    <item 
+        android:id="@+id/settings" 
+        android:title="@string/settings"/>
+    <item 
+        android:id="@+id/action_logout" 
+        android:title="@string/action_logout"/>
+        
+</menu>

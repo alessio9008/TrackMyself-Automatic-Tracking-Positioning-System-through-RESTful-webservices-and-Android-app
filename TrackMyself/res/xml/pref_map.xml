@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="driving"
+        android:entries="@array/pref_modalita_percorsi_titles"
+        android:entryValues="@array/pref_modalita_percorsi_values"
+        android:key="modalita_percorsi"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_modalita_percorsi_label" />
+    <ListPreference
+        android:defaultValue="8"
+        android:entries="@array/pref_zoom_level_titles"
+        android:entryValues="@array/pref_zoom_level_values"
+        android:key="zoom_level"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_zoom_level_label" />
+    <ListPreference
+        android:defaultValue="4"
+        android:entries="@array/pref_map_mode_titles"
+        android:entryValues="@array/pref_map_mode_values"
+        android:key="map_mode"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_map_mode_label" />
+	<ListPreference
+        android:defaultValue="-16776961"
+        android:entries="@array/pref_map_color_titles"
+        android:entryValues="@array/pref_map_color_values"
+        android:key="map_color"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_map_color_label" />
+   
+
+</PreferenceScreen>
