@@ -1,4 +1,4 @@
-TrackMyself-Automatic-Tracking-Positioning-System-through-RESTful-webservices-and-Android-app
+TrackMyself Automatic Tracking Positioning System through RESTful webservices and Android app
 =========================================================================================
 
 The project consists in the tracking of the user's location through an ANDROID app that communicates with a remote database (MySQL) through RESTful webservices built with JAVA Enterprise 7 (using the Glassfish 4 container).
